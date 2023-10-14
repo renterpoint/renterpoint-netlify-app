@@ -79,13 +79,22 @@ const IndexPage = () => {
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
             title={'Luxury Car Rental Dubai'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            description={`Dubai is a city of luxury, and there's nothing better than cruising around in a luxury car to feel like a true VIP. Whether you're going to a business meeting or a social event, arriving in a luxury car is sure to make a statement.
+Luxury car meeting in Dubai. Luxury Cars in Dubai are designed to provide the ultimate driving experience, with features like powerful engines, luxurious interiors, and advanced safety features.`}
             textLink={'shop now'}
             link={'/shop'}
+
+              
           />
         </Container>
       </div>
+import { Link } from 'react-router-dom'
 
+function App() {
+  return (
+    <Link to="https://www.google.com">Go to Google</Link>
+  );
+}
       {/* Promotion */}
       <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
