@@ -83,6 +83,9 @@ const IndexPage = () => {
 Luxury car meeting in Dubai. <a href="#">Luxury Cars in Dubai</a> are designed to provide the ultimate driving experience, with features like powerful engines, luxurious interiors, and advanced safety features.`}
             textLink={'shop now'}
             link={'/shop'}
+ 
+    <Link to="https://www.google.com">Go to Google</Link>
+
 
               
           />
