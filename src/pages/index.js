@@ -80,7 +80,7 @@ const IndexPage = () => {
             miniImageAlt={'mini highlight image'}
             title={'Luxury Car Rental Dubai'}
             description={`Dubai is a city of luxury, and there's nothing better than cruising around in a luxury car to feel like a true VIP. Whether you're going to a business meeting or a social event, arriving in a luxury car is sure to make a statement.
-Luxury car meeting in Dubai. Luxury Cars in Dubai are designed to provide the ultimate driving experience, with features like powerful engines, luxurious interiors, and advanced safety features.`}
+Luxury car meeting in Dubai. <a href="#">Luxury Cars in Dubai</a> are designed to provide the ultimate driving experience, with features like powerful engines, luxurious interiors, and advanced safety features.`}
             textLink={'shop now'}
             link={'/shop'}
 
