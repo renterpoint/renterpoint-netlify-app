@@ -88,13 +88,7 @@ Luxury car meeting in Dubai. Luxury Cars in Dubai are designed to provide the ul
           />
         </Container>
       </div>
-import { Link } from 'react-router-dom'
 
-function App() {
-  return (
-    <Link to="https://www.google.com">Go to Google</Link>
-  );
-}
       {/* Promotion */}
       <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
